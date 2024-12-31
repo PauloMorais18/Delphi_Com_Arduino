@@ -28,8 +28,6 @@ implementation
 
 {$R *.dfm}
 
-
-
 procedure TForm1.Button1Click(Sender: TObject);
 begin
    Comport1.writestr('1');
